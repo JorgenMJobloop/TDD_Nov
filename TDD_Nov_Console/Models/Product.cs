@@ -28,6 +28,6 @@ public class Product
     // a overwritten ToString() implementation
     public override string ToString()
     {
-        return $"{Name} ({Category}) - {Price:C}";
+        return $"{Name} - ({Category}) - {Price:C}";
     }
 }
