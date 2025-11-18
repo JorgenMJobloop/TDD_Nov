@@ -36,4 +36,10 @@ public class ProductServiceTests
         Assert.Equal(expectedItemCount, result.Count());
     }
 
+    [Fact]
+    public void GetAveragePrice_ShouldReturnCorrectAverage()
+    {
+        var average = _service.GetAveragePrice(); // hold our average price
+        Assert.Equal(26, Math.Round(average));
+    }
 }
