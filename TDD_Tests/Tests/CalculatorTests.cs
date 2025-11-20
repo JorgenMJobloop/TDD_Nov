@@ -1,5 +1,4 @@
 using Xunit.Sdk;
-
 public class CalculatorTests
 {
     Calculator calculator = new Calculator(5, 10);
